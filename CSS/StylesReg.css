@@ -1,0 +1,78 @@
+body { 
+    background-color: rgb(173, 173, 173);
+    color: #2e2e2e; 
+    background-size: cover; 
+    margin: 0; /* Center everything */
+    padding: 0; /* Center everything */
+}
+
+.special {
+    color: #f0f0f0; /* Green text color */
+    font-size: 2rem; /* 2x base font size */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Modern sans-serif font stack */
+}
+
+.container {
+    justify-content: space-between;
+    max-width: 100%; /* Changed max-width to 100% */
+    margin: 0 auto; /* Center horizontally */
+    padding: 20px; /* Add padding for spacing */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+}
+.box {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 40%; /* Adjust the width as desired */
+    height: 100%; /* Adjust the height as desired */
+    background-color:#1b9b6c;
+    border: 1px solid #6b746ce4;
+    z-index: -1;
+}
+
+
+.table {
+    color: #FFF; /* White text color */
+    background-color: #34495e; /* Dark blue-gray background color */
+}
+
+.table:hover {
+    color: #FFC107; /* Yellow text color on hover */
+    background-color: #2c3e50; /* Slightly darker blue-gray background color on hover */
+}
+
+.input {
+    color: #E74C3C; /* Red text color */
+    background-color: #ECF0F1; /* Light gray background color */
+    font-size: 1.2rem; /* Slightly increased font size */
+    padding: 1rem; /* Standardized padding */
+    border-radius: 8px; /* Slightly rounded corners */
+    width: 100%; /* Full width input */
+    max-width: 400px; /* Maximum width for larger screens */
+}
+
+.input:hover {
+    color: #9b59b6; /* Purple text color on hover */
+    background-color:#9d9c9c; /* Green background color on hover */
+}
+
+.button {
+    color: #3498db; /* Light blue text color */
+    background-color: #FFF; /* White background color */
+    padding: 1rem 2rem; /* Increased padding for better click area */
+    border: 2px solid #3498db; /* Light blue border */
+    font-size: 1rem; /* Base font size */
+    border-radius: 8px; /* Slightly rounded corners */
+    cursor: pointer; /* Pointer cursor */
+    transition: all 0.3s ease; /* Smooth transition */
+}
+
+.button:hover {
+    color: #FFF; /* White text color on hover */
+    background-color: #3498db; /* Light blue background color on hover */
+}
+
+.log {
+    border-color: #818d8a; /* Green border color */
+}
