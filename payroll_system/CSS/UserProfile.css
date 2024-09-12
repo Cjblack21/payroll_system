@@ -1,0 +1,251 @@
+body {
+    font-family: 'Roboto', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:#F0F7FF;
+}
+
+.user-name {
+    color: rgb(255, 0, 170); 
+    text-decoration: none; 
+}
+
+/* Layout styles */
+.container {
+    display: flex;
+    height: 100vh;
+}
+
+.weller {
+    display: block;
+    text-align: center;
+}
+
+.sidebar {
+    width: 250px;
+    background-color: #282c34;
+    color: #fff;
+    padding-top: 16px;
+    box-shadow: 2px 0 4px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+}
+
+.sidebar h1 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #61dafb;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.content {
+    flex: 1;
+    padding: 20px;
+    margin-left: 250px; /* Adjusted to accommodate the sidebar */
+}
+
+/* Navigation styles */
+.nav-container {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-container li {
+    margin-bottom: 10px;
+}
+
+.nav-container a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    display: block;
+    padding: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.nav-container a:hover {
+    background-color: #61dafb;
+}
+
+/* Header styles */
+.header {
+    background-color: #282c34;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.header h1 {
+    font-size: 24px;
+    margin: 0;
+}
+
+/* Footer styles */
+.copyright{
+    font-family: 'Roboto', Arial, sans-serif;
+    color: #ffffff;
+    background-color: #006493a0;
+    text-align: left;
+    position:absolute;
+    left: 0%; 
+    bottom: 0%;
+    padding: 15px;
+    margin-top: 20%;
+    top: 85%;
+    box-shadow: 2px 0 4px rgba(0, 0, 0, 0.1);
+}
+
+.time {
+    font-weight: bold;
+    text-align: left;
+    color: #ffffff;
+    font-size: 14px;
+    position: absolute;
+    top: 15px; 
+    right: 1361px; 
+    width: 150px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* This is the style for boxes */
+.content1 {
+    display: flex; 
+    justify-content: space-between; 
+    flex-wrap: wrap; 
+}
+
+.box1{
+    font-size: 19px !important;
+    text-decoration: none;
+    flex: 1; 
+    max-width: 30%;
+    margin-top:70px;
+    margin-bottom: 20px;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    border: 3px solid #22313f;
+    box-sizing: border-box;
+    box-shadow: 0 2px 4px rgba(10, 10, 10, 0.1);
+}
+
+.box2{
+    font-size: 20px !important;
+    text-decoration: none;
+    flex: 1; 
+    max-width: 30%; 
+    margin-bottom: 20px;
+    margin-top:70px;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    border: 3px solid #22313f;
+    box-sizing: border-box;
+    box-shadow: 0 2px 4px rgba(10, 10, 10, 0.1);
+}
+
+.box3{
+    font-size: 20px !important;
+    text-decoration: none;
+    flex: 1; 
+    max-width: 30%; 
+    margin-bottom: 20px;
+    margin-top:70px;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    border: 3px solid #22313f;
+    box-sizing: border-box;
+    box-shadow: 0 2px 4px rgba(10, 10, 10, 0.1);
+}
+
+
+.box1 {
+    background-color: #ff9a3c; /* Yellow */
+}
+
+.box2 {
+    background-color: #0e76e6; /* Blue */
+}
+
+.box3 {
+    background-color: #28a745; /* Green */
+
+}
+
+
+.box1 button {
+    padding: 10px 20px;
+    background-color: #ffffff; 
+    color: #000000;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 16px; /* Adjust the font size as needed */
+}
+
+.box2 button {
+    padding: 10px 20px;
+    background-color: #fff; /* Yellow */
+    color: #000000;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 16px; /* Adjust the font size as needed */
+}
+
+.box3 button {
+    padding: 10px 20px;
+    background-color: #fff; /* Yellow */
+    color: #000000;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 16px; /* Adjust the font size as needed */
+}
+
+
+.box1 button:hover{
+background-color: #cecece; 
+}
+.box2 button:hover{
+background-color: #cecece 
+}
+.box3 button:hover {
+    background-color: #cecece; 
+}
+
+/* This the text inside the box */
+h2{
+    margin: 11px 0; 
+    padding: 0;
+    text-align: center;
+    font-size: 30px;
+    color: #ffffff;
+}
+
+h3{
+    margin: 10px 0; 
+    padding: 0;
+    text-align: center;
+    font-size: 30px;
+    color: #ffffff;
+}
+
+h4{
+    margin: 10px 0; 
+    padding: 0;
+    text-align: center;
+    font-size: 30px;
+    color: #ffffff;
+}

@@ -1,0 +1,152 @@
+body {
+    font-family: 'Roboto', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #F0F7FF;
+}
+
+.user-name {
+    color: rgb(255, 0, 170); 
+    text-decoration: none; 
+}
+
+/* Layout styles */
+.container {
+    display: flex;
+    height: 100vh;
+}
+
+.weller {
+    display: block;
+    text-align: center;
+}
+
+.sidebar {
+    width: 250px;
+    background-color: #282c34;
+    color: #fff;
+    padding-top: 16px;
+    box-shadow: 2px 0 4px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+}
+
+.sidebar h1 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #61dafb;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.content {
+    flex: 1;
+    padding: 20px;
+    margin-left: 250px; /* Adjusted to accommodate the sidebar */
+}
+
+/* Navigation styles */
+.nav-container {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-container li {
+    margin-bottom: 10px;
+}
+
+.nav-container a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    display: block;
+    padding: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.nav-container a:hover {
+    background-color: #61dafb;
+}
+
+/* Header styles */
+.header {
+    background-color: #282c34;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.header h1 {
+    font-size: 24px;
+    margin: 0;
+}
+
+/* Footer styles */
+.copyright{
+    font-family: 'Roboto', Arial, sans-serif;
+    color: #ffffff;
+    background-color: #006493a0;
+    text-align: left;
+    position:absolute;
+    left: 0%; 
+    bottom: 0%;
+    padding: 15px;
+    margin-top: 20%;
+    top: 85%;
+    box-shadow: 2px 0 4px rgba(0, 0, 0, 0.1);
+}
+
+.time {
+    font-weight: bold;
+    text-align: left;
+    color: #ffffff;
+    font-size: 14px;
+    position: absolute;
+    top: 15px; /* Adjust as needed */
+    right: 1361px; /* Adjust as needed */
+    width: 150px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+h1 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.attendance-table {
+    border-radius: 10px;
+    width: 100%; /* Adjusted width */
+    margin-left: 0; /* Add left margin */
+    border-color: solid #424040;
+    border: 5px solid #424040;
+
+}
+
+.attendance-table th,
+.attendance-table td {
+    border-color: green ;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    text-align: left;
+}
+
+.attendance-table th {
+    background-color: #f2f2f2;
+}
+
+.attendance-table tbody tr:hover {
+    background-color: #f9f9f9;
+}
+
+.header {
+    background-color: #282c34;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}

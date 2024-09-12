@@ -1,0 +1,164 @@
+body {
+    font-family: 'Roboto', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:#F0F7FF;
+}
+
+.user-name {
+    color: rgb(255, 0, 170); 
+    text-decoration: none; 
+}
+
+/* Layout styles */
+.container {
+    display: flex;
+    height: 100vh;
+}
+
+.weller {
+    display: block;
+    text-align: center;
+}
+
+.sidebar {
+    width: 250px;
+    background-color: #282c34;
+    color: #fff;
+    padding-top: 16px;
+    box-shadow: 2px 0 4px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+}
+
+.sidebar h1 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #61dafb;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.content {
+    flex: 1;
+    padding: 20px;
+    margin-left: 250px; /* Adjusted to accommodate the sidebar */
+}
+
+/* Navigation styles */
+.nav-container {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-container li {
+    margin-bottom: 10px;
+}
+
+.nav-container a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    display: block;
+    padding: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.nav-container a:hover {
+    background-color: #61dafb;
+}
+
+/* Header styles */
+.header {
+    background-color: #282c34;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.header h1 {
+    font-size: 24px;
+    margin: 0;
+}
+
+/* Footer styles */
+.copyright{
+    font-family: 'Roboto', Arial, sans-serif;
+    color: #ffffff;
+    background-color: #006493a0;
+    text-align: left;
+    position:absolute;
+    left: 0%; 
+    bottom: 0%;
+    padding: 15px;
+    margin-top: 20%;
+    top: 85%;
+    box-shadow: 2px 0 4px rgba(0, 0, 0, 0.1);
+}
+
+.time {
+    font-weight: bold;
+    text-align: left;
+    color: #ffffff;
+    font-size: 14px;
+    position: absolute;
+    top: 15px; 
+    right: 1361px; 
+    width: 150px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+/* Table styles */
+.table-container {
+    width: 100%;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 0;
+    margin-bottom: 20px; 
+    position: relative; 
+    text-align: left; /* Align the table to the right */
+    overflow: auto;
+}
+
+.table {
+    margin-top: 55px;
+    border-radius: 10px;
+    border-color:rgb(27, 27, 27) ;
+    width: 100%; /* Adjusted width */
+    margin-left: 0; /* Add left margin */
+}
+
+.table th,
+.table td {
+    border: 1px solid #ddd;
+    padding: 8px; /* Adjusted padding */
+    text-align: left;
+}
+
+.table th {
+    background-color: #f2f2f2;
+    color: #333;
+}
+
+.table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Apply hover effect to individual cells */
+.table td:hover {
+    background-color: #ddd;
+}
+
+/* Adjust hover effect for links and buttons */
+.nav-container a:hover,
+.button:hover {
+    background-color: #61dafb;
+    color: #fff; /* Added to ensure text color change on hover for buttons */
+}
+
+
